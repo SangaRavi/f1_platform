@@ -11,7 +11,7 @@ COPY requirements-backend.txt requirements.txt
 # Install dependencies
 RUN pip install -r requirements.txt
 
-# Copy files to working directory (into a newly created /app directory)
+
 COPY . /app
 
 # Expose port
