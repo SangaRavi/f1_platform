@@ -1,0 +1,2107 @@
+{
+    "metadata": {
+        "streamsync_version": "0.1.7"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "parentId": null,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "88f656ac-a4cb-4466-a612-857f6bdcc04f": {
+            "id": "88f656ac-a4cb-4466-a612-857f6bdcc04f",
+            "type": "page",
+            "content": {
+                "pageMode": "wide",
+                "emptinessColor": "#e5e7ff",
+                "separatorColor": "#878282",
+                "key": "analytics"
+            },
+            "parentId": "root",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "1790e96f-8f11-4b9b-a94c-5caad4ac79ac": {
+            "id": "1790e96f-8f11-4b9b-a94c-5caad4ac79ac",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "88f656ac-a4cb-4466-a612-857f6bdcc04f",
+            "position": 2,
+            "handlers": {},
+            "visible": "plot_available"
+        },
+        "b1d05b4b-bb48-43a4-ab80-06a45139b0e5": {
+            "id": "b1d05b4b-bb48-43a4-ab80-06a45139b0e5",
+            "type": "columns",
+            "content": {},
+            "parentId": "1790e96f-8f11-4b9b-a94c-5caad4ac79ac",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "88ccc709-837d-4896-8d55-dcf08c11303e": {
+            "id": "88ccc709-837d-4896-8d55-dcf08c11303e",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "b1d05b4b-bb48-43a4-ab80-06a45139b0e5",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "70e673a0-c6c4-422e-a65d-eb02153843e2": {
+            "id": "70e673a0-c6c4-422e-a65d-eb02153843e2",
+            "type": "section",
+            "content": {
+                "title": "Fastest Laptimes",
+                "snapMode": "no"
+            },
+            "parentId": "88ccc709-837d-4896-8d55-dcf08c11303e",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c15274b7-1b7a-440a-b4de-e7b96e8177bc": {
+            "id": "c15274b7-1b7a-440a-b4de-e7b96e8177bc",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{fastest_laptime}"
+            },
+            "parentId": "70e673a0-c6c4-422e-a65d-eb02153843e2",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "d3ab3460-1984-409a-a866-d30b05b6d1ff": {
+            "id": "d3ab3460-1984-409a-a866-d30b05b6d1ff",
+            "type": "separator",
+            "content": {},
+            "parentId": "b1d05b4b-bb48-43a4-ab80-06a45139b0e5",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "a9259a8c-de62-40c8-9502-3a1380f6e794": {
+            "id": "a9259a8c-de62-40c8-9502-3a1380f6e794",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "b1d05b4b-bb48-43a4-ab80-06a45139b0e5",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "e06fca9e-7f7b-4b3c-9735-7dc4d01d452d": {
+            "id": "e06fca9e-7f7b-4b3c-9735-7dc4d01d452d",
+            "type": "section",
+            "content": {
+                "title": "Average Laptimes",
+                "snapMode": "no"
+            },
+            "parentId": "a9259a8c-de62-40c8-9502-3a1380f6e794",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "7df664ba-803d-4ee4-8078-5a60c99c84a9": {
+            "id": "7df664ba-803d-4ee4-8078-5a60c99c84a9",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{average_laptime}"
+            },
+            "parentId": "e06fca9e-7f7b-4b3c-9735-7dc4d01d452d",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "aaa29cd1-8e44-473f-a362-91c08abad481": {
+            "id": "aaa29cd1-8e44-473f-a362-91c08abad481",
+            "type": "columns",
+            "content": {},
+            "parentId": "1790e96f-8f11-4b9b-a94c-5caad4ac79ac",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "4d4e1523-3263-4223-b691-3e0ad6cea09c": {
+            "id": "4d4e1523-3263-4223-b691-3e0ad6cea09c",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "aaa29cd1-8e44-473f-a362-91c08abad481",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "4fca20d2-e14b-4ef3-806c-e935fdef3651": {
+            "id": "4fca20d2-e14b-4ef3-806c-e935fdef3651",
+            "type": "section",
+            "content": {
+                "title": "Top Speed (KPH) at Speed Trap ",
+                "snapMode": "no"
+            },
+            "parentId": "4d4e1523-3263-4223-b691-3e0ad6cea09c",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "158cc1a3-016e-4d80-9c72-28a9ecc024ed": {
+            "id": "158cc1a3-016e-4d80-9c72-28a9ecc024ed",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{topspeed_st}"
+            },
+            "parentId": "4fca20d2-e14b-4ef3-806c-e935fdef3651",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "7326a82d-e172-49ec-88a6-97e74aac5d54": {
+            "id": "7326a82d-e172-49ec-88a6-97e74aac5d54",
+            "type": "separator",
+            "content": {},
+            "parentId": "1790e96f-8f11-4b9b-a94c-5caad4ac79ac",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "8cd38f46-392e-40c1-8016-3aba290cbbb4": {
+            "id": "8cd38f46-392e-40c1-8016-3aba290cbbb4",
+            "type": "columns",
+            "content": {},
+            "parentId": "1790e96f-8f11-4b9b-a94c-5caad4ac79ac",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "2dd88576-4438-431a-8918-5e0e8695c8ed": {
+            "id": "2dd88576-4438-431a-8918-5e0e8695c8ed",
+            "type": "separator",
+            "content": {},
+            "parentId": "8cd38f46-392e-40c1-8016-3aba290cbbb4",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "f3e52a37-d010-497f-bacd-47e5d97eb986": {
+            "id": "f3e52a37-d010-497f-bacd-47e5d97eb986",
+            "type": "page",
+            "content": {
+                "pageMode": "wide",
+                "accentColor": "#191414",
+                "containerBackgroundColor": "#6a5858",
+                "emptinessColor": "#ffffff",
+                "primaryTextColor": "#141414",
+                "key": "driver_duel",
+                "separatorColor": "#c37f7f"
+            },
+            "parentId": "root",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "688cdf5e-ae85-4440-8a58-46a2387c543f": {
+            "id": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "type": "columns",
+            "content": {},
+            "parentId": "f3e52a37-d010-497f-bacd-47e5d97eb986",
+            "position": 1,
+            "handlers": {},
+            "visible": "driver_duel_available"
+        },
+        "4411bbd7-cf83-44d3-9d42-c7f0b1206b48": {
+            "id": "4411bbd7-cf83-44d3-9d42-c7f0b1206b48",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "normal"
+            },
+            "parentId": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "30a3da07-1c41-4102-aee8-7ef770beb457": {
+            "id": "30a3da07-1c41-4102-aee8-7ef770beb457",
+            "type": "metric",
+            "content": {
+                "name": "Driver",
+                "metricValue": "@{selected_driver_1}",
+                "description": "",
+                "note": "@{driver_a_team}"
+            },
+            "parentId": "4411bbd7-cf83-44d3-9d42-c7f0b1206b48",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c81503d5-b330-45ca-89d2-f94bc53b252d": {
+            "id": "c81503d5-b330-45ca-89d2-f94bc53b252d",
+            "type": "metric",
+            "content": {
+                "name": "Laptime",
+                "metricValue": "@{laptime_driver1}",
+                "note": "@{diff_driver1}"
+            },
+            "parentId": "4411bbd7-cf83-44d3-9d42-c7f0b1206b48",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "cb36627b-e1de-4787-8795-ab6d42d5a3ff": {
+            "id": "cb36627b-e1de-4787-8795-ab6d42d5a3ff",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{throttle_brake_drs_driver1}"
+            },
+            "parentId": "4411bbd7-cf83-44d3-9d42-c7f0b1206b48",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "08fd13ae-a5bc-4033-bdca-c79cf567ab5d": {
+            "id": "08fd13ae-a5bc-4033-bdca-c79cf567ab5d",
+            "type": "separator",
+            "content": {},
+            "parentId": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "22f7dd2a-7e00-4a70-858f-624d07cf1150": {
+            "id": "22f7dd2a-7e00-4a70-858f-624d07cf1150",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "2a29490b-95fd-4e01-a7d3-bdc3fbe14444": {
+            "id": "2a29490b-95fd-4e01-a7d3-bdc3fbe14444",
+            "type": "separator",
+            "content": {},
+            "parentId": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "61eb84cf-c769-499b-9ae4-f1c43864d75b": {
+            "id": "61eb84cf-c769-499b-9ae4-f1c43864d75b",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "688cdf5e-ae85-4440-8a58-46a2387c543f",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "cc8240d1-994f-411a-b7d0-ea041c5ed16e": {
+            "id": "cc8240d1-994f-411a-b7d0-ea041c5ed16e",
+            "type": "metric",
+            "content": {
+                "name": "Driver",
+                "metricValue": "@{selected_driver_2}",
+                "description": "",
+                "note": "@{driver_b_team}"
+            },
+            "parentId": "61eb84cf-c769-499b-9ae4-f1c43864d75b",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "9485b7d0-f5a4-4499-b01d-dccb6a6954ab": {
+            "id": "9485b7d0-f5a4-4499-b01d-dccb6a6954ab",
+            "type": "metric",
+            "content": {
+                "name": "Laptime",
+                "metricValue": "@{laptime_driver2}",
+                "note": "@{diff_driver2}"
+            },
+            "parentId": "61eb84cf-c769-499b-9ae4-f1c43864d75b",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "2995967a-ece0-4516-aaa8-83e76bffaa9d": {
+            "id": "2995967a-ece0-4516-aaa8-83e76bffaa9d",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{throttle_brake_drs_driver2}"
+            },
+            "parentId": "61eb84cf-c769-499b-9ae4-f1c43864d75b",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "646107da-56d2-4989-a036-027e01570c08": {
+            "id": "646107da-56d2-4989-a036-027e01570c08",
+            "type": "section",
+            "content": {
+                "title": "Lap Telemetry",
+                "containerBackgroundColor": "#f1eaea",
+                "snapMode": "no"
+            },
+            "parentId": "f3e52a37-d010-497f-bacd-47e5d97eb986",
+            "position": 2,
+            "handlers": {},
+            "visible": "driver_duel_available"
+        },
+        "95e9202b-c7b0-4b7c-9a80-073e789709e3": {
+            "id": "95e9202b-c7b0-4b7c-9a80-073e789709e3",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{driver_duel_telemetry}"
+            },
+            "parentId": "646107da-56d2-4989-a036-027e01570c08",
+            "position": 0,
+            "handlers": {}
+        },
+        "52d6edcb-06e0-4bc6-98ff-a5c30ad12713": {
+            "id": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "type": "sidebar",
+            "content": {},
+            "parentId": "f3e52a37-d010-497f-bacd-47e5d97eb986",
+            "position": -2,
+            "handlers": {},
+            "visible": true
+        },
+        "b52dccb2-ff52-4d97-8d8a-d5aabf069ac4": {
+            "id": "b52dccb2-ff52-4d97-8d8a-d5aabf069ac4",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Choose Driver 1",
+                "options": "{\n    \"LEC\": \"Charles Leclerc\",\n    \"SAI\": \"Carlos Sainz\",\n    \"VER\": \"Max Verstappen\",\n    \"PER\": \"Sergio Perez\",\n    \"NOR\": \"Lando Norris\",\n    \"ALO\": \"Fernando Alonso\",\n    \"OCO\": \"Esteban Ocon\",\n    \"BOT\": \"Valtteri Bottas\",\n    \"ZHO\": \"Zhou Guanyu\",\n    \"GAS\": \"Pierre Gasly\",\n    \"TSU\": \"Yuki Tsunoda\",\n    \"MAG\": \"Kevin Magnussen\",\n    \"DEV\": \"Nyck De Vries\",\n    \"PIA\": \"Oscar Piastri\",\n    \"HUL\": \"Nico Hulkenberg\",\n    \"STR\": \"Lance Stroll\",\n    \"HAM\": \"Lewis Hamilton\",\n    \"RUS\": \"George Russell\",\n    \"ALB\": \"Alexander Albon\",\n    \"SAR\": \"Logan Sargeant\"\n}"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 3,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "driver_a"
+            },
+            "visible": true
+        },
+        "948398ea-ed46-45c0-bb9d-30bd7030cfce": {
+            "id": "948398ea-ed46-45c0-bb9d-30bd7030cfce",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Choose Driver 2",
+                "options": "{\n    \"LEC\": \"Charles Leclerc\",\n    \"SAI\": \"Carlos Sainz\",\n    \"VER\": \"Max Verstappen\",\n    \"PER\": \"Sergio Perez\",\n    \"NOR\": \"Lando Norris\",\n    \"ALO\": \"Fernando Alonso\",\n    \"OCO\": \"Esteban Ocon\",\n    \"BOT\": \"Valtteri Bottas\",\n    \"ZHO\": \"Zhou Guanyu\",\n    \"GAS\": \"Pierre Gasly\",\n    \"TSU\": \"Yuki Tsunoda\",\n    \"MAG\": \"Kevin Magnussen\",\n    \"DEV\": \"Nyck De Vries\",\n    \"PIA\": \"Oscar Piastri\",\n    \"HUL\": \"Nico Hulkenberg\",\n    \"STR\": \"Lance Stroll\",\n    \"HAM\": \"Lewis Hamilton\",\n    \"RUS\": \"George Russell\",\n    \"ALB\": \"Alexander Albon\",\n    \"SAR\": \"Logan Sargeant\"\n}"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 4,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "driver_b"
+            },
+            "visible": true
+        },
+        "7722a963-974d-45b4-8a27-c3643cc94a1e": {
+            "id": "7722a963-974d-45b4-8a27-c3643cc94a1e",
+            "type": "button",
+            "content": {
+                "text": "Submit"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 5,
+            "handlers": {
+                "click": "update_driver_duel"
+            },
+            "visible": true
+        },
+        "3ef8948a-acec-4d6a-b8e3-ef3b4628466b": {
+            "id": "3ef8948a-acec-4d6a-b8e3-ef3b4628466b",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "88f656ac-a4cb-4466-a612-857f6bdcc04f",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "ab1412fc-74cc-48db-b50e-e43667bb4b00": {
+            "id": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "type": "columns",
+            "content": {},
+            "parentId": "3ef8948a-acec-4d6a-b8e3-ef3b4628466b",
+            "position": 0,
+            "handlers": {}
+        },
+        "1197d4aa-364a-4f55-b444-71beb32c4d68": {
+            "id": "1197d4aa-364a-4f55-b444-71beb32c4d68",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "startCollapsed": "",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "9fd3c762-0ce8-42fa-ae5b-4f1889ccc4bd": {
+            "id": "9fd3c762-0ce8-42fa-ae5b-4f1889ccc4bd",
+            "type": "separator",
+            "content": {},
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "0ea70f18-748b-489a-b2b2-33ce6470adf3": {
+            "id": "0ea70f18-748b-489a-b2b2-33ce6470adf3",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "13cea9a8-5132-4a40-8c91-6cae842bf2ac": {
+            "id": "13cea9a8-5132-4a40-8c91-6cae842bf2ac",
+            "type": "button",
+            "content": {
+                "text": "Analytics"
+            },
+            "parentId": "1197d4aa-364a-4f55-b444-71beb32c4d68",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_analytics"
+            },
+            "visible": true
+        },
+        "89bf7199-7eac-4d0f-9494-9ea31989a7f8": {
+            "id": "89bf7199-7eac-4d0f-9494-9ea31989a7f8",
+            "type": "button",
+            "content": {
+                "text": "Standings & Stats"
+            },
+            "parentId": "0ea70f18-748b-489a-b2b2-33ce6470adf3",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_statistics"
+            },
+            "visible": true
+        },
+        "2d0b8bc6-1c22-4faf-a6fc-fecb50983e7b": {
+            "id": "2d0b8bc6-1c22-4faf-a6fc-fecb50983e7b",
+            "type": "separator",
+            "content": {},
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "19eb8b4f-2b54-4ed2-90b8-5af28de145fd": {
+            "id": "19eb8b4f-2b54-4ed2-90b8-5af28de145fd",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "a51572b4-9a29-4c58-b505-aa456be01129": {
+            "id": "a51572b4-9a29-4c58-b505-aa456be01129",
+            "type": "button",
+            "content": {
+                "text": "Driver Duels"
+            },
+            "parentId": "19eb8b4f-2b54-4ed2-90b8-5af28de145fd",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_driver_duel"
+            }
+        },
+        "89dbabdb-53ec-4a69-8de0-8120910def3b": {
+            "id": "89dbabdb-53ec-4a69-8de0-8120910def3b",
+            "type": "separator",
+            "content": {},
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "a3773b6c-7403-413b-8085-ebe217bd8ab8": {
+            "id": "a3773b6c-7403-413b-8085-ebe217bd8ab8",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "7ee06936-544e-4432-91df-37bdd48782e1": {
+            "id": "7ee06936-544e-4432-91df-37bdd48782e1",
+            "type": "button",
+            "content": {
+                "text": "Teammate Battles"
+            },
+            "parentId": "a3773b6c-7403-413b-8085-ebe217bd8ab8",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "87f28efd-e81a-4011-ade5-b7dd32ffe5ee": {
+            "id": "87f28efd-e81a-4011-ade5-b7dd32ffe5ee",
+            "type": "page",
+            "content": {
+                "pageMode": "wide",
+                "key": "statistics",
+                "separatorColor": "#c37f7f"
+            },
+            "parentId": "root",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "92e8217b-a88b-4a13-9b43-847d72598350": {
+            "id": "92e8217b-a88b-4a13-9b43-847d72598350",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "87f28efd-e81a-4011-ade5-b7dd32ffe5ee",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "b2071e06-7ef8-49e0-b58f-9b525a44f032": {
+            "id": "b2071e06-7ef8-49e0-b58f-9b525a44f032",
+            "type": "columns",
+            "content": {},
+            "parentId": "92e8217b-a88b-4a13-9b43-847d72598350",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "87e0ce32-bde1-49da-b350-515115223a0f": {
+            "id": "87e0ce32-bde1-49da-b350-515115223a0f",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "verticalAlignment": "center",
+                "horizontalAlignment": "center",
+                "startCollapsed": "no",
+                "isCollapsible": "",
+                "isSticky": ""
+            },
+            "parentId": "b2071e06-7ef8-49e0-b58f-9b525a44f032",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "995a7995-5c18-41f0-bc0b-20f75770091d": {
+            "id": "995a7995-5c18-41f0-bc0b-20f75770091d",
+            "type": "sliderinput",
+            "content": {
+                "label": "Year",
+                "minValue": "2022",
+                "maxValue": "2023",
+                "stepSize": "1"
+            },
+            "parentId": "87e0ce32-bde1-49da-b350-515115223a0f",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-number-change",
+                "stateRef": "standings_year"
+            },
+            "visible": true
+        },
+        "8f3f998d-ecf6-4ed2-b777-7a57613bf701": {
+            "id": "8f3f998d-ecf6-4ed2-b777-7a57613bf701",
+            "type": "separator",
+            "content": {},
+            "parentId": "92e8217b-a88b-4a13-9b43-847d72598350",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "2501c071-7ab8-4180-a912-66f376c52b24": {
+            "id": "2501c071-7ab8-4180-a912-66f376c52b24",
+            "type": "columns",
+            "content": {},
+            "parentId": "92e8217b-a88b-4a13-9b43-847d72598350",
+            "position": 2,
+            "handlers": {},
+            "visible": "activate_standings"
+        },
+        "99cc70cb-5a22-4a45-9903-a74e2db3ce12": {
+            "id": "99cc70cb-5a22-4a45-9903-a74e2db3ce12",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "horizontalAlignment": "normal"
+            },
+            "parentId": "2501c071-7ab8-4180-a912-66f376c52b24",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "72ca4fee-940f-48e6-b193-48caa9f724a2": {
+            "id": "72ca4fee-940f-48e6-b193-48caa9f724a2",
+            "type": "separator",
+            "content": {},
+            "parentId": "2501c071-7ab8-4180-a912-66f376c52b24",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "398e0c7a-58fa-464d-8bcc-9a52f5f55d45": {
+            "id": "398e0c7a-58fa-464d-8bcc-9a52f5f55d45",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1"
+            },
+            "parentId": "2501c071-7ab8-4180-a912-66f376c52b24",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "f1bb0718-0543-4219-9d91-658e59b133b1": {
+            "id": "f1bb0718-0543-4219-9d91-658e59b133b1",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "87f28efd-e81a-4011-ade5-b7dd32ffe5ee",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "4fa9b06e-0e33-4d50-9099-89e895d8a3be": {
+            "id": "4fa9b06e-0e33-4d50-9099-89e895d8a3be",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{driver_standings}"
+            },
+            "parentId": "99cc70cb-5a22-4a45-9903-a74e2db3ce12",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "0cb7e3f7-8d43-4c09-bb04-989ab4945a6f": {
+            "id": "0cb7e3f7-8d43-4c09-bb04-989ab4945a6f",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{constructor_standings}"
+            },
+            "parentId": "398e0c7a-58fa-464d-8bcc-9a52f5f55d45",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "f4d7ed53-ea1d-468b-8298-a8459e9f3476": {
+            "id": "f4d7ed53-ea1d-468b-8298-a8459e9f3476",
+            "type": "section",
+            "content": {
+                "title": "Choose Session",
+                "snapMode": "no"
+            },
+            "parentId": "88f656ac-a4cb-4466-a612-857f6bdcc04f",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "2c1d4f17-ce37-4514-8764-703a0f7fee78": {
+            "id": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "type": "columns",
+            "content": {},
+            "parentId": "f4d7ed53-ea1d-468b-8298-a8459e9f3476",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "156d71cd-4036-4a29-80dc-5ff62abc49f8": {
+            "id": "156d71cd-4036-4a29-80dc-5ff62abc49f8",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "78bef10e-679d-4a9c-b59f-e02f227aaa11": {
+            "id": "78bef10e-679d-4a9c-b59f-e02f227aaa11",
+            "type": "sliderinput",
+            "content": {
+                "label": "Year",
+                "minValue": "2022",
+                "maxValue": "2023",
+                "stepSize": "1"
+            },
+            "parentId": "156d71cd-4036-4a29-80dc-5ff62abc49f8",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-number-change",
+                "stateRef": "year"
+            },
+            "visible": true
+        },
+        "77a9cc64-ccc6-4040-8630-1e98fa2cd999": {
+            "id": "77a9cc64-ccc6-4040-8630-1e98fa2cd999",
+            "type": "separator",
+            "content": {},
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "b99d651e-672f-4fce-97b9-1e361a966d0c": {
+            "id": "b99d651e-672f-4fce-97b9-1e361a966d0c",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center",
+                "verticalAlignment": "center"
+            },
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "9d946119-4e1c-44f1-aadb-76b49b941716": {
+            "id": "9d946119-4e1c-44f1-aadb-76b49b941716",
+            "type": "separator",
+            "content": {},
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "5e66d738-6731-4235-98d9-7316848ae2ea": {
+            "id": "5e66d738-6731-4235-98d9-7316848ae2ea",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "5b5b5640-c9c3-4a50-bd6a-52a64fabb022": {
+            "id": "5b5b5640-c9c3-4a50-bd6a-52a64fabb022",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Grand Prix",
+                "options": "{\n  \"Spain\": \"Spain\",\n  \"Bahrain\": \"Bahrain\",\n  \"Monaco\": \"Monaco\",\n  \"Canada\": \"Canada\",\n  \"Austria\": \"Austria\"\n}"
+            },
+            "parentId": "5e66d738-6731-4235-98d9-7316848ae2ea",
+            "position": 0,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "gp"
+            },
+            "visible": true
+        },
+        "504017db-7044-428c-929b-73ae129b90f2": {
+            "id": "504017db-7044-428c-929b-73ae129b90f2",
+            "type": "separator",
+            "content": {},
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "a45408b4-0721-4457-b920-dc9cbd6f68da": {
+            "id": "a45408b4-0721-4457-b920-dc9cbd6f68da",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "2c1d4f17-ce37-4514-8764-703a0f7fee78",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "be420c03-aa5e-4b64-b14f-d869f99b5981": {
+            "id": "be420c03-aa5e-4b64-b14f-d869f99b5981",
+            "type": "button",
+            "content": {
+                "text": "Submit"
+            },
+            "parentId": "a45408b4-0721-4457-b920-dc9cbd6f68da",
+            "position": 0,
+            "handlers": {
+                "click": "update"
+            },
+            "visible": true
+        },
+        "b131ad73-3a47-4de6-93bf-491dcf6e0621": {
+            "id": "b131ad73-3a47-4de6-93bf-491dcf6e0621",
+            "type": "page",
+            "content": {
+                "key": "#ingest"
+            },
+            "parentId": "root",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "fbec359b-5bbc-4d3d-9661-8a66b5af7109": {
+            "id": "fbec359b-5bbc-4d3d-9661-8a66b5af7109",
+            "type": "section",
+            "content": {
+                "title": "Section Title",
+                "snapMode": "no"
+            },
+            "parentId": "b131ad73-3a47-4de6-93bf-491dcf6e0621",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "75ae34e2-5e08-4e2d-ba51-2938cf999d74": {
+            "id": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "type": "columns",
+            "content": {},
+            "parentId": "fbec359b-5bbc-4d3d-9661-8a66b5af7109",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "2a923649-1839-4d24-97c6-a6df9e83b4fc": {
+            "id": "2a923649-1839-4d24-97c6-a6df9e83b4fc",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "6b7fca5c-3346-47a5-ad8e-28b2a0288a03": {
+            "id": "6b7fca5c-3346-47a5-ad8e-28b2a0288a03",
+            "type": "sliderinput",
+            "content": {
+                "label": "Year",
+                "minValue": "2000",
+                "maxValue": "2023",
+                "stepSize": "1"
+            },
+            "parentId": "2a923649-1839-4d24-97c6-a6df9e83b4fc",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-number-change",
+                "stateRef": "year"
+            },
+            "visible": true
+        },
+        "e611c853-8bda-405f-8077-068aeb3d00d3": {
+            "id": "e611c853-8bda-405f-8077-068aeb3d00d3",
+            "type": "separator",
+            "content": {},
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "3e42e954-fdd2-48b1-87fa-d1d7a55a145c": {
+            "id": "3e42e954-fdd2-48b1-87fa-d1d7a55a145c",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "right",
+                "verticalAlignment": "center"
+            },
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "524aed8a-7eb7-47af-a7be-121b39d08e53": {
+            "id": "524aed8a-7eb7-47af-a7be-121b39d08e53",
+            "type": "radioinput",
+            "content": {
+                "label": "Mode",
+                "options": "{\n  \"SQ\": \"Race\",\n  \"Q\": \"Quali\"\n}"
+            },
+            "parentId": "3e42e954-fdd2-48b1-87fa-d1d7a55a145c",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "mode"
+            },
+            "visible": true
+        },
+        "8837349b-5906-4dcf-a43c-40e3bfecfee8": {
+            "id": "8837349b-5906-4dcf-a43c-40e3bfecfee8",
+            "type": "separator",
+            "content": {},
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "b969d396-9cc4-4e18-a927-50ffcb21dce7": {
+            "id": "b969d396-9cc4-4e18-a927-50ffcb21dce7",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "b46896d8-199f-4b5d-bc85-7cbd01928418": {
+            "id": "b46896d8-199f-4b5d-bc85-7cbd01928418",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Grand Prix",
+                "options": "{\n  \"Spain\": \"Spain\",\n  \"Bahrain\": \"Bahrain\",\n  \"Monaco\": \"Monaco\",\n  \"Canada\": \"Canada\",\n  \"Austria\": \"Austria\"\n}"
+            },
+            "parentId": "b969d396-9cc4-4e18-a927-50ffcb21dce7",
+            "position": 0,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "gp"
+            },
+            "visible": true
+        },
+        "d9ff71c2-554a-49e5-b912-f4412b3e3566": {
+            "id": "d9ff71c2-554a-49e5-b912-f4412b3e3566",
+            "type": "separator",
+            "content": {},
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "09a8c3b2-693d-4f6c-a8e3-4c49a5f9b45a": {
+            "id": "09a8c3b2-693d-4f6c-a8e3-4c49a5f9b45a",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "6aee650b-0b9a-49ff-8c21-b4d93799e1a0": {
+            "id": "6aee650b-0b9a-49ff-8c21-b4d93799e1a0",
+            "type": "separator",
+            "content": {},
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 7,
+            "handlers": {},
+            "visible": true
+        },
+        "23d28199-f0bf-4c78-9200-0ae8fddf9970": {
+            "id": "23d28199-f0bf-4c78-9200-0ae8fddf9970",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "75ae34e2-5e08-4e2d-ba51-2938cf999d74",
+            "position": 8,
+            "handlers": {},
+            "visible": true
+        },
+        "a0ffd15c-5603-473f-a451-0b455d2fa46a": {
+            "id": "a0ffd15c-5603-473f-a451-0b455d2fa46a",
+            "type": "button",
+            "content": {
+                "text": "Ingest"
+            },
+            "parentId": "23d28199-f0bf-4c78-9200-0ae8fddf9970",
+            "position": 0,
+            "handlers": {
+                "click": "ingest"
+            },
+            "visible": true
+        },
+        "da5eb246-7c43-4890-8040-e2db7ba69d79": {
+            "id": "da5eb246-7c43-4890-8040-e2db7ba69d79",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Ingestor",
+                "options": "{\n  \"lapgap_ingestor\": \"Lapgaps\",\n  \"topspeed_st_ingestor\": \"TopSpeed\"\n}"
+            },
+            "parentId": "09a8c3b2-693d-4f6c-a8e3-4c49a5f9b45a",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "ingestor"
+            },
+            "visible": true
+        },
+        "d3e2217a-c315-414d-9708-c1e3d4095622": {
+            "id": "d3e2217a-c315-414d-9708-c1e3d4095622",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Mode",
+                "options": "{\n  \"SQ\": \"Race\",\n  \"Q\": \"Quali\"\n}"
+            },
+            "parentId": "b99d651e-672f-4fce-97b9-1e361a966d0c",
+            "position": 0,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "mode"
+            },
+            "visible": true
+        },
+        "c8f15210-594a-4421-84a2-d20d6218e81b": {
+            "id": "c8f15210-594a-4421-84a2-d20d6218e81b",
+            "type": "button",
+            "content": {
+                "text": "Submit"
+            },
+            "parentId": "87e0ce32-bde1-49da-b350-515115223a0f",
+            "position": 1,
+            "handlers": {
+                "click": "update_standings"
+            },
+            "visible": true
+        },
+        "3a71efce-a916-4a9d-b9aa-a43da921f5c9": {
+            "id": "3a71efce-a916-4a9d-b9aa-a43da921f5c9",
+            "type": "dropdowninput",
+            "content": {
+                "label": "GP",
+                "options": "{\n  \"Austria\": \"Austria\",\n  \"Canada\": \"Canada\",\n  \"Bahrain\": \"Bahrain\",\n  \"Miami\": \"Miami\",\n  \"Monaco\": \"Monaco\"\n}"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 2,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "gp_driver_duel"
+            },
+            "visible": true
+        },
+        "299cf2d8-e7b9-495e-8914-d5078f912ff4": {
+            "id": "299cf2d8-e7b9-495e-8914-d5078f912ff4",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Year",
+                "options": "{\n    \"2023\": \"2023\",\n    \"2022\": \"2022\",\n    \"2021\": \"2021\",\n    \"2020\": \"2020\",\n    \"2019\": \"2019\",\n    \"2018\": \"2018\",\n    \"2017\": \"2017\",\n    \"2016\": \"2016\",\n    \"2015\": \"2015\",\n    \"2014\": \"2014\",\n    \"2013\": \"2013\",\n    \"2012\": \"2012\",\n    \"2011\": \"2011\",\n    \"2010\": \"2010\",\n    \"2009\": \"2009\",\n    \"2008\": \"2008\",\n    \"2007\": \"2007\",\n    \"2006\": \"2006\",\n    \"2005\": \"2005\",\n    \"2004\": \"2004\",\n    \"2003\": \"2003\",\n    \"2002\": \"2002\",\n    \"2001\": \"2001\",\n    \"2000\": \"2000\"\n}"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "year_driver_duel"
+            },
+            "visible": true
+        },
+        "2bff31fa-ea17-4183-8daa-55a1c8950d6c": {
+            "id": "2bff31fa-ea17-4183-8daa-55a1c8950d6c",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Session",
+                "options": "{\n  \"R\": \"Race\",\n  \"Q\": \"Quali\",\n  \"FP1\": \"FP1\"\n}"
+            },
+            "parentId": "52d6edcb-06e0-4bc6-98ff-a5c30ad12713",
+            "position": 1,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "mode_driver_duel"
+            },
+            "visible": true
+        },
+        "6d518e26-1e8d-4c84-b586-76fd9e27b5a1": {
+            "id": "6d518e26-1e8d-4c84-b586-76fd9e27b5a1",
+            "type": "heading",
+            "content": {
+                "text": "@{gp_driver_duel} GP - @{year_driver_duel} - Best Laps Comparison",
+                "headingType": "h1",
+                "alignment": "center"
+            },
+            "parentId": "22f7dd2a-7e00-4a70-858f-624d07cf1150",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "232f9d2f-d971-46af-be9c-8451c33b335c": {
+            "id": "232f9d2f-d971-46af-be9c-8451c33b335c",
+            "type": "section",
+            "content": {
+                "title": "",
+                "containerBackgroundColor": "#ffffff",
+                "snapMode": "yes"
+            },
+            "parentId": "22f7dd2a-7e00-4a70-858f-624d07cf1150",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "11579201-f1d0-4947-af31-450e2f0a8155": {
+            "id": "11579201-f1d0-4947-af31-450e2f0a8155",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{circuit_fastest}"
+            },
+            "parentId": "232f9d2f-d971-46af-be9c-8451c33b335c",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "3e57998b-9955-4d06-9a93-df2cbd1c21ec": {
+            "id": "3e57998b-9955-4d06-9a93-df2cbd1c21ec",
+            "type": "heading",
+            "content": {
+                "text": "Fastest Per Sector",
+                "alignment": "center"
+            },
+            "parentId": "232f9d2f-d971-46af-be9c-8451c33b335c",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "6292ce4a-1206-4d63-b732-45f0f08bf0be": {
+            "id": "6292ce4a-1206-4d63-b732-45f0f08bf0be",
+            "type": "page",
+            "content": {
+                "pageMode": "wide",
+                "emptinessColor": "#e5e7ff",
+                "separatorColor": "#878282",
+                "key": "teammate_battles"
+            },
+            "parentId": "root",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "4172a706-940d-4f4e-a7b7-ec511ae362c6": {
+            "id": "4172a706-940d-4f4e-a7b7-ec511ae362c6",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "6292ce4a-1206-4d63-b732-45f0f08bf0be",
+            "position": 2,
+            "handlers": {},
+            "visible": "plot_available"
+        },
+        "6d4c9c93-4176-479f-9aa7-da43a4aaae2c": {
+            "id": "6d4c9c93-4176-479f-9aa7-da43a4aaae2c",
+            "type": "columns",
+            "content": {},
+            "parentId": "4172a706-940d-4f4e-a7b7-ec511ae362c6",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "3defc6d1-b251-42cb-9f24-9025e3de2bbe": {
+            "id": "3defc6d1-b251-42cb-9f24-9025e3de2bbe",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "6d4c9c93-4176-479f-9aa7-da43a4aaae2c",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "57152acc-26f1-4e01-9183-7623ef770e54": {
+            "id": "57152acc-26f1-4e01-9183-7623ef770e54",
+            "type": "section",
+            "content": {
+                "title": "Fastest Laptimes",
+                "snapMode": "no"
+            },
+            "parentId": "3defc6d1-b251-42cb-9f24-9025e3de2bbe",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "b153274a-e2b1-4164-96e4-039645625922": {
+            "id": "b153274a-e2b1-4164-96e4-039645625922",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{fastest_laptime}"
+            },
+            "parentId": "57152acc-26f1-4e01-9183-7623ef770e54",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "846e37e5-66ed-4acf-9a77-416aa0542634": {
+            "id": "846e37e5-66ed-4acf-9a77-416aa0542634",
+            "type": "separator",
+            "content": {},
+            "parentId": "6d4c9c93-4176-479f-9aa7-da43a4aaae2c",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "06e3155c-72b2-4de8-a6b6-b80dc56ed76e": {
+            "id": "06e3155c-72b2-4de8-a6b6-b80dc56ed76e",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "6d4c9c93-4176-479f-9aa7-da43a4aaae2c",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "a7bb7171-cbc9-4a6c-96f0-5a49716091ef": {
+            "id": "a7bb7171-cbc9-4a6c-96f0-5a49716091ef",
+            "type": "section",
+            "content": {
+                "title": "Average Laptimes",
+                "snapMode": "no"
+            },
+            "parentId": "06e3155c-72b2-4de8-a6b6-b80dc56ed76e",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "9561e272-4eb1-494a-ac91-5a6d5a20f048": {
+            "id": "9561e272-4eb1-494a-ac91-5a6d5a20f048",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{average_laptime}"
+            },
+            "parentId": "a7bb7171-cbc9-4a6c-96f0-5a49716091ef",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "d00ea044-f876-4e5c-9949-3aadaf0dd777": {
+            "id": "d00ea044-f876-4e5c-9949-3aadaf0dd777",
+            "type": "columns",
+            "content": {},
+            "parentId": "4172a706-940d-4f4e-a7b7-ec511ae362c6",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "ab414d7e-92da-43ef-8107-26d31ed1c4f8": {
+            "id": "ab414d7e-92da-43ef-8107-26d31ed1c4f8",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "d00ea044-f876-4e5c-9949-3aadaf0dd777",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "37fcd626-12e6-41cd-80ba-da74826693b8": {
+            "id": "37fcd626-12e6-41cd-80ba-da74826693b8",
+            "type": "section",
+            "content": {
+                "title": "Top Speed (KPH) at Speed Trap ",
+                "snapMode": "no"
+            },
+            "parentId": "ab414d7e-92da-43ef-8107-26d31ed1c4f8",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "59fe41be-2471-4058-a1f2-fcdea868dde4": {
+            "id": "59fe41be-2471-4058-a1f2-fcdea868dde4",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{topspeed_st}"
+            },
+            "parentId": "37fcd626-12e6-41cd-80ba-da74826693b8",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "3e7c05fb-1eba-45b7-8446-274de452b7fa": {
+            "id": "3e7c05fb-1eba-45b7-8446-274de452b7fa",
+            "type": "separator",
+            "content": {},
+            "parentId": "4172a706-940d-4f4e-a7b7-ec511ae362c6",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "6e5db66a-ddc1-4fbf-87d2-0a8a656f3da4": {
+            "id": "6e5db66a-ddc1-4fbf-87d2-0a8a656f3da4",
+            "type": "columns",
+            "content": {},
+            "parentId": "4172a706-940d-4f4e-a7b7-ec511ae362c6",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "ea9c82a1-5313-4b32-bdaf-1d29f1355518": {
+            "id": "ea9c82a1-5313-4b32-bdaf-1d29f1355518",
+            "type": "separator",
+            "content": {},
+            "parentId": "6e5db66a-ddc1-4fbf-87d2-0a8a656f3da4",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "e4235819-c521-4d30-8885-899d7f43c728": {
+            "id": "e4235819-c521-4d30-8885-899d7f43c728",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "6292ce4a-1206-4d63-b732-45f0f08bf0be",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "50a63c12-62ef-4a1f-af55-f25e8c328947": {
+            "id": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "type": "columns",
+            "content": {},
+            "parentId": "e4235819-c521-4d30-8885-899d7f43c728",
+            "position": 0,
+            "handlers": {}
+        },
+        "2f942a10-624a-4d9f-a4f0-a9baccb5c07a": {
+            "id": "2f942a10-624a-4d9f-a4f0-a9baccb5c07a",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "startCollapsed": "",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "374e5f17-00fe-4838-aedd-b0c238cec31f": {
+            "id": "374e5f17-00fe-4838-aedd-b0c238cec31f",
+            "type": "button",
+            "content": {
+                "text": "Analytics"
+            },
+            "parentId": "2f942a10-624a-4d9f-a4f0-a9baccb5c07a",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_analytics"
+            },
+            "visible": true
+        },
+        "3f177f45-60f1-4996-b336-41b1e92b73e4": {
+            "id": "3f177f45-60f1-4996-b336-41b1e92b73e4",
+            "type": "separator",
+            "content": {},
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "ca755f37-991b-439a-b8cc-1a256e94c8a3": {
+            "id": "ca755f37-991b-439a-b8cc-1a256e94c8a3",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "867f0612-f25a-4380-a11a-1a9b1af94c50": {
+            "id": "867f0612-f25a-4380-a11a-1a9b1af94c50",
+            "type": "button",
+            "content": {
+                "text": "Standings & Stats"
+            },
+            "parentId": "ca755f37-991b-439a-b8cc-1a256e94c8a3",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_statistics"
+            },
+            "visible": true
+        },
+        "bfbfa96f-3403-4149-8525-241471a6a9c5": {
+            "id": "bfbfa96f-3403-4149-8525-241471a6a9c5",
+            "type": "separator",
+            "content": {},
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "08a6310c-39c0-492e-b002-6e3c97d29882": {
+            "id": "08a6310c-39c0-492e-b002-6e3c97d29882",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "53a46603-ae0c-436e-acb5-faba9812bc3a": {
+            "id": "53a46603-ae0c-436e-acb5-faba9812bc3a",
+            "type": "button",
+            "content": {
+                "text": "Driver Duels"
+            },
+            "parentId": "08a6310c-39c0-492e-b002-6e3c97d29882",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_driver_duel"
+            }
+        },
+        "2c7f6aec-a499-4641-abe0-81d29f81478d": {
+            "id": "2c7f6aec-a499-4641-abe0-81d29f81478d",
+            "type": "separator",
+            "content": {},
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "90d0d97a-e98d-43a0-a0b0-a907b86f4f11": {
+            "id": "90d0d97a-e98d-43a0-a0b0-a907b86f4f11",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "50a63c12-62ef-4a1f-af55-f25e8c328947",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "d7ab997d-15b7-47ce-b22d-2d607c2a5b0c": {
+            "id": "d7ab997d-15b7-47ce-b22d-2d607c2a5b0c",
+            "type": "button",
+            "content": {
+                "text": "About"
+            },
+            "parentId": "90d0d97a-e98d-43a0-a0b0-a907b86f4f11",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "bedea86f-d71f-4bf7-b4fa-8ce14f4d8efa": {
+            "id": "bedea86f-d71f-4bf7-b4fa-8ce14f4d8efa",
+            "type": "section",
+            "content": {
+                "title": "Choose Session",
+                "snapMode": "no"
+            },
+            "parentId": "6292ce4a-1206-4d63-b732-45f0f08bf0be",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "cdafaf06-5e28-495f-a973-b6679a901204": {
+            "id": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "type": "columns",
+            "content": {},
+            "parentId": "bedea86f-d71f-4bf7-b4fa-8ce14f4d8efa",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "ceae1803-e48c-4542-8e99-5b657d1a0122": {
+            "id": "ceae1803-e48c-4542-8e99-5b657d1a0122",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "44fae036-21ed-46fc-bcf2-062f720a825a": {
+            "id": "44fae036-21ed-46fc-bcf2-062f720a825a",
+            "type": "sliderinput",
+            "content": {
+                "label": "Year",
+                "minValue": "2000",
+                "maxValue": "2023",
+                "stepSize": "1"
+            },
+            "parentId": "ceae1803-e48c-4542-8e99-5b657d1a0122",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-number-change",
+                "stateRef": "year"
+            },
+            "visible": true
+        },
+        "9ca8c536-a1ba-49a5-a61e-bdabe8a0efcb": {
+            "id": "9ca8c536-a1ba-49a5-a61e-bdabe8a0efcb",
+            "type": "separator",
+            "content": {},
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "e791c973-dbfa-4001-992b-523dc43ab8ad": {
+            "id": "e791c973-dbfa-4001-992b-523dc43ab8ad",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center",
+                "verticalAlignment": "center"
+            },
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "484005ff-c11a-4d65-91e7-2718f8044f57": {
+            "id": "484005ff-c11a-4d65-91e7-2718f8044f57",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Mode",
+                "options": "{\n  \"R\": \"Race\",\n  \"Q\": \"Quali\"\n}"
+            },
+            "parentId": "e791c973-dbfa-4001-992b-523dc43ab8ad",
+            "position": 0,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "mode"
+            },
+            "visible": true
+        },
+        "fb2af4d1-7aaa-49c1-9c37-b174129f5555": {
+            "id": "fb2af4d1-7aaa-49c1-9c37-b174129f5555",
+            "type": "separator",
+            "content": {},
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "abc5dd6a-1354-480c-908c-30f2a4ed446b": {
+            "id": "abc5dd6a-1354-480c-908c-30f2a4ed446b",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "15d67f26-3922-4bb1-8790-ad3f8853ad99": {
+            "id": "15d67f26-3922-4bb1-8790-ad3f8853ad99",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Grand Prix",
+                "options": "{\n  \"Spain\": \"Spain\",\n  \"Bahrain\": \"Bahrain\",\n  \"Monaco\": \"Monaco\",\n  \"Canada\": \"Canada\"\n}"
+            },
+            "parentId": "abc5dd6a-1354-480c-908c-30f2a4ed446b",
+            "position": 0,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "gp"
+            },
+            "visible": true
+        },
+        "2d68146b-206c-4c27-a813-1c55afbe9322": {
+            "id": "2d68146b-206c-4c27-a813-1c55afbe9322",
+            "type": "separator",
+            "content": {},
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "56eec4b4-4273-4fbc-bb4d-d8be7d9c1e53": {
+            "id": "56eec4b4-4273-4fbc-bb4d-d8be7d9c1e53",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "cdafaf06-5e28-495f-a973-b6679a901204",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "238496fe-4053-4018-a137-de35517258e2": {
+            "id": "238496fe-4053-4018-a137-de35517258e2",
+            "type": "button",
+            "content": {
+                "text": "Submit"
+            },
+            "parentId": "56eec4b4-4273-4fbc-bb4d-d8be7d9c1e53",
+            "position": 0,
+            "handlers": {
+                "click": "update"
+            },
+            "visible": true
+        },
+        "9961c7f2-20ab-4246-b291-9d337ff0be6c": {
+            "id": "9961c7f2-20ab-4246-b291-9d337ff0be6c",
+            "type": "separator",
+            "content": {},
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 7,
+            "handlers": {},
+            "visible": true
+        },
+        "a3b67d94-b9ca-4755-9809-2c4d846e62cc": {
+            "id": "a3b67d94-b9ca-4755-9809-2c4d846e62cc",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "ab1412fc-74cc-48db-b50e-e43667bb4b00",
+            "position": 8,
+            "handlers": {},
+            "visible": true
+        },
+        "d26c1f01-b91a-46e1-a530-5f75bda9a7a0": {
+            "id": "d26c1f01-b91a-46e1-a530-5f75bda9a7a0",
+            "type": "button",
+            "content": {
+                "text": "About"
+            },
+            "parentId": "a3b67d94-b9ca-4755-9809-2c4d846e62cc",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c465b955-fdef-439d-82e7-533f6a07effe": {
+            "id": "c465b955-fdef-439d-82e7-533f6a07effe",
+            "type": "heading",
+            "content": {
+                "text": "Driver Standings",
+                "headingType": "h1",
+                "alignment": "center"
+            },
+            "parentId": "99cc70cb-5a22-4a45-9903-a74e2db3ce12",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "31fb26db-6ea7-4c6c-85e5-8e2930631296": {
+            "id": "31fb26db-6ea7-4c6c-85e5-8e2930631296",
+            "type": "heading",
+            "content": {
+                "text": "Constructor Standings",
+                "alignment": "center",
+                "headingType": "h1"
+            },
+            "parentId": "398e0c7a-58fa-464d-8bcc-9a52f5f55d45",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "257358bb-0538-4eac-99c1-429d57f7e034": {
+            "id": "257358bb-0538-4eac-99c1-429d57f7e034",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "f3e52a37-d010-497f-bacd-47e5d97eb986",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "1363961d-9555-428c-adb7-9c91a992bcb5": {
+            "id": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "type": "columns",
+            "content": {},
+            "parentId": "257358bb-0538-4eac-99c1-429d57f7e034",
+            "position": 0,
+            "handlers": {}
+        },
+        "b242adbe-85a0-4baa-bb31-116d7492980a": {
+            "id": "b242adbe-85a0-4baa-bb31-116d7492980a",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "startCollapsed": "",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "e16405ce-1176-4be4-acf2-549420b06de4": {
+            "id": "e16405ce-1176-4be4-acf2-549420b06de4",
+            "type": "button",
+            "content": {
+                "text": "Analytics"
+            },
+            "parentId": "b242adbe-85a0-4baa-bb31-116d7492980a",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_analytics"
+            },
+            "visible": true
+        },
+        "f1522851-2993-469f-89ff-58877b54ea3b": {
+            "id": "f1522851-2993-469f-89ff-58877b54ea3b",
+            "type": "separator",
+            "content": {},
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "d2959af2-4062-4d74-84da-68457f0cf78b": {
+            "id": "d2959af2-4062-4d74-84da-68457f0cf78b",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "92f93869-c3cd-40ba-8a12-561eca91295a": {
+            "id": "92f93869-c3cd-40ba-8a12-561eca91295a",
+            "type": "button",
+            "content": {
+                "text": "Standings & Stats"
+            },
+            "parentId": "d2959af2-4062-4d74-84da-68457f0cf78b",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_statistics"
+            },
+            "visible": true
+        },
+        "e6df96ea-8558-4d89-a412-bb36bd9e707a": {
+            "id": "e6df96ea-8558-4d89-a412-bb36bd9e707a",
+            "type": "separator",
+            "content": {},
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "00ad8bd2-cb4d-425d-acde-71f4c927d00a": {
+            "id": "00ad8bd2-cb4d-425d-acde-71f4c927d00a",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "9eae389b-91e8-4ddc-a71d-a3d059795336": {
+            "id": "9eae389b-91e8-4ddc-a71d-a3d059795336",
+            "type": "button",
+            "content": {
+                "text": "Driver Duels"
+            },
+            "parentId": "00ad8bd2-cb4d-425d-acde-71f4c927d00a",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_driver_duel"
+            }
+        },
+        "4674b0d6-2fe4-406b-906b-835c30128309": {
+            "id": "4674b0d6-2fe4-406b-906b-835c30128309",
+            "type": "separator",
+            "content": {},
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "4291f81d-4240-4117-9eb1-7fa6e15c92b1": {
+            "id": "4291f81d-4240-4117-9eb1-7fa6e15c92b1",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "5d82dd0d-9265-4755-ae6f-81058da5a704": {
+            "id": "5d82dd0d-9265-4755-ae6f-81058da5a704",
+            "type": "button",
+            "content": {
+                "text": "Teammate Battles"
+            },
+            "parentId": "4291f81d-4240-4117-9eb1-7fa6e15c92b1",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "d8ecc64f-a3e2-4ec7-a66e-75262b77a8d9": {
+            "id": "d8ecc64f-a3e2-4ec7-a66e-75262b77a8d9",
+            "type": "separator",
+            "content": {},
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 7,
+            "handlers": {},
+            "visible": true
+        },
+        "99c0ddcf-ffcd-49a8-b568-9ebbd4297cef": {
+            "id": "99c0ddcf-ffcd-49a8-b568-9ebbd4297cef",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "1363961d-9555-428c-adb7-9c91a992bcb5",
+            "position": 8,
+            "handlers": {},
+            "visible": true
+        },
+        "f52a8f5a-072b-43ed-9e76-7d3d7c409841": {
+            "id": "f52a8f5a-072b-43ed-9e76-7d3d7c409841",
+            "type": "button",
+            "content": {
+                "text": "About"
+            },
+            "parentId": "99c0ddcf-ffcd-49a8-b568-9ebbd4297cef",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "bd0a53e4-b29f-443a-9015-77fd1b771a86": {
+            "id": "bd0a53e4-b29f-443a-9015-77fd1b771a86",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no"
+            },
+            "parentId": "f1bb0718-0543-4219-9d91-658e59b133b1",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd": {
+            "id": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "type": "columns",
+            "content": {},
+            "parentId": "bd0a53e4-b29f-443a-9015-77fd1b771a86",
+            "position": 0,
+            "handlers": {}
+        },
+        "ed39ef87-25e0-40b0-94ca-156c5dc5f0f9": {
+            "id": "ed39ef87-25e0-40b0-94ca-156c5dc5f0f9",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "startCollapsed": "",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "886462ce-b4f3-4abe-8073-88a642ebf219": {
+            "id": "886462ce-b4f3-4abe-8073-88a642ebf219",
+            "type": "button",
+            "content": {
+                "text": "Analytics"
+            },
+            "parentId": "ed39ef87-25e0-40b0-94ca-156c5dc5f0f9",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_analytics"
+            },
+            "visible": true
+        },
+        "2bfba25e-911d-4a5a-a5b5-869563869b69": {
+            "id": "2bfba25e-911d-4a5a-a5b5-869563869b69",
+            "type": "separator",
+            "content": {},
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "ed5e95e0-8f81-4794-b041-57931202c609": {
+            "id": "ed5e95e0-8f81-4794-b041-57931202c609",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "2321905a-06ac-4792-af9c-b103835afa72": {
+            "id": "2321905a-06ac-4792-af9c-b103835afa72",
+            "type": "button",
+            "content": {
+                "text": "Standings & Stats"
+            },
+            "parentId": "ed5e95e0-8f81-4794-b041-57931202c609",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_statistics"
+            },
+            "visible": true
+        },
+        "a5a5868a-3d11-48be-9d83-b45b68c97960": {
+            "id": "a5a5868a-3d11-48be-9d83-b45b68c97960",
+            "type": "separator",
+            "content": {},
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "664d51a5-9b52-4143-876f-58448cef57d6": {
+            "id": "664d51a5-9b52-4143-876f-58448cef57d6",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 4,
+            "handlers": {},
+            "visible": true
+        },
+        "7321e148-6e81-4868-9c00-e9e83134501d": {
+            "id": "7321e148-6e81-4868-9c00-e9e83134501d",
+            "type": "button",
+            "content": {
+                "text": "Driver Duels"
+            },
+            "parentId": "664d51a5-9b52-4143-876f-58448cef57d6",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_driver_duel"
+            }
+        },
+        "a05584b0-3f1c-4937-9661-02ec9fb69fa7": {
+            "id": "a05584b0-3f1c-4937-9661-02ec9fb69fa7",
+            "type": "separator",
+            "content": {},
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "2e7713c4-6267-4665-b35d-01070f24b9e0": {
+            "id": "2e7713c4-6267-4665-b35d-01070f24b9e0",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 6,
+            "handlers": {},
+            "visible": true
+        },
+        "419c5710-bf79-4847-9c68-0370058cfa55": {
+            "id": "419c5710-bf79-4847-9c68-0370058cfa55",
+            "type": "button",
+            "content": {
+                "text": "Teammate Battles"
+            },
+            "parentId": "2e7713c4-6267-4665-b35d-01070f24b9e0",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "59ab0a36-a782-443f-a0f6-7f81b7715959": {
+            "id": "59ab0a36-a782-443f-a0f6-7f81b7715959",
+            "type": "separator",
+            "content": {},
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 7,
+            "handlers": {},
+            "visible": true
+        },
+        "4235385b-3f06-4421-94c3-aa496650275b": {
+            "id": "4235385b-3f06-4421-94c3-aa496650275b",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "4b8a8bca-f7e2-4cc8-8d50-17b56c700abd",
+            "position": 8,
+            "handlers": {},
+            "visible": true
+        },
+        "b4350557-f4c1-49e7-b49a-014eff1cea49": {
+            "id": "b4350557-f4c1-49e7-b49a-014eff1cea49",
+            "type": "button",
+            "content": {
+                "text": "About"
+            },
+            "parentId": "4235385b-3f06-4421-94c3-aa496650275b",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        }
+    }
+}

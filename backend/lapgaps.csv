@@ -1,0 +1,41 @@
+Driver,LapTime,SpeedMode,FullName,TeamName,TeamColor,DriverNumber,Event,GP,Year
+VER,76.33,Fastest,Max Verstappen,Red Bull Racing,#3671C6,1,R,Spain,2023
+VER,79.90776923076922,Average,Max Verstappen,Red Bull Racing,#3671C6,1,R,Spain,2023
+PER,76.666,Fastest,Sergio Perez,Red Bull Racing,#3671C6,11,R,Spain,2023
+PER,80.35995384615383,Average,Sergio Perez,Red Bull Racing,#3671C6,11,R,Spain,2023
+HAM,76.676,Fastest,Lewis Hamilton,Mercedes,#6CD3BF,44,R,Spain,2023
+HAM,80.2408307692308,Average,Lewis Hamilton,Mercedes,#6CD3BF,44,R,Spain,2023
+NOR,77.182,Fastest,Lando Norris,McLaren,#F58020,4,R,Spain,2023
+NOR,81.51409375,Average,Lando Norris,McLaren,#F58020,4,R,Spain,2023
+RUS,77.875,Fastest,George Russell,Mercedes,#6CD3BF,63,R,Spain,2023
+RUS,80.3353076923077,Average,George Russell,Mercedes,#6CD3BF,63,R,Spain,2023
+MAG,78.069,Fastest,Kevin Magnussen,Haas F1 Team,#B6BABD,20,R,Spain,2023
+MAG,81.63792187499999,Average,Kevin Magnussen,Haas F1 Team,#B6BABD,20,R,Spain,2023
+ALO,78.083,Fastest,Fernando Alonso,Aston Martin,#358C75,14,R,Spain,2023
+ALO,80.83120000000002,Average,Fernando Alonso,Aston Martin,#358C75,14,R,Spain,2023
+BOT,78.242,Fastest,Valtteri Bottas,Alfa Romeo,#C92D4B,77,R,Spain,2023
+BOT,81.80035937500004,Average,Valtteri Bottas,Alfa Romeo,#C92D4B,77,R,Spain,2023
+LEC,78.357,Fastest,Charles Leclerc,Ferrari,#F91536,16,R,Spain,2023
+LEC,80.8702923076923,Average,Charles Leclerc,Ferrari,#F91536,16,R,Spain,2023
+GAS,78.375,Fastest,Pierre Gasly,Alpine,#2293D1,10,R,Spain,2023
+GAS,80.92195384615381,Average,Pierre Gasly,Alpine,#2293D1,10,R,Spain,2023
+SAI,78.403,Fastest,Carlos Sainz,Ferrari,#F91536,55,R,Spain,2023
+SAI,80.59948437499999,Average,Carlos Sainz,Ferrari,#F91536,55,R,Spain,2023
+DEV,78.594,Fastest,Nyck De Vries,AlphaTauri,#5E8FAA,21,R,Spain,2023
+DEV,81.11671875,Average,Nyck De Vries,AlphaTauri,#5E8FAA,21,R,Spain,2023
+PIA,78.679,Fastest,Oscar Piastri,McLaren,#F58020,81,R,Spain,2023
+PIA,81.13795238095241,Average,Oscar Piastri,McLaren,#F58020,81,R,Spain,2023
+STR,78.722,Fastest,Lance Stroll,Aston Martin,#358C75,18,R,Spain,2023
+STR,80.8541692307692,Average,Lance Stroll,Aston Martin,#358C75,18,R,Spain,2023
+ZHO,78.753,Fastest,Guanyu Zhou,Alfa Romeo,#C92D4B,24,R,Spain,2023
+ZHO,80.92824615384612,Average,Guanyu Zhou,Alfa Romeo,#C92D4B,24,R,Spain,2023
+HUL,78.776,Fastest,Nico Hulkenberg,Haas F1 Team,#B6BABD,27,R,Spain,2023
+HUL,81.34537499999999,Average,Nico Hulkenberg,Haas F1 Team,#B6BABD,27,R,Spain,2023
+TSU,78.904,Fastest,Yuki Tsunoda,AlphaTauri,#5E8FAA,22,R,Spain,2023
+TSU,80.88480000000001,Average,Yuki Tsunoda,AlphaTauri,#5E8FAA,22,R,Spain,2023
+OCO,78.946,Fastest,Esteban Ocon,Alpine,#2293D1,31,R,Spain,2023
+OCO,80.92389230769231,Average,Esteban Ocon,Alpine,#2293D1,31,R,Spain,2023
+ALB,79.133,Fastest,Alexander Albon,Williams,#37BEDD,23,R,Spain,2023
+ALB,81.45895312499998,Average,Alexander Albon,Williams,#37BEDD,23,R,Spain,2023
+SAR,79.247,Fastest,Logan Sargeant,Williams,#37BEDD,2,R,Spain,2023
+SAR,81.86351612903223,Average,Logan Sargeant,Williams,#37BEDD,2,R,Spain,2023

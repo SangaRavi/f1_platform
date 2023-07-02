@@ -1,0 +1,50 @@
+# Run this Docker compose file using `docker-compose up -d --build`
+# No need specify version 2 or 3 in latest Compose specification
+version: '3.8'
+services:
+  # Backend service (FastAPI and H2O Model loaded from MLflow Tracking)
+  backend:
+    build: backend
+    image: f1-platform-backend:latest
+    ports:
+      - "5000:5000"
+      - "54321:54321"
+    volumes:
+      - ./backend:/app/backend
+    networks:
+      - project_network
+
+  # Frontend service (Streamlit UI)
+  frontend:
+    build: interactive_ui
+    image: f1-platform-frontend:latest
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./interactive_ui:/app/frontend
+    depends_on: 
+    - backend
+    networks:
+      - project_network
+
+
+  db:
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+      - ./db/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+    networks:
+      - project_network
+
+networks:
+  project_network:
+
+volumes:
+  db:
+    driver: local
