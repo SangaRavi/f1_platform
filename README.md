@@ -6,4 +6,4 @@ The prototype here contains 3 main components,
 - Visualiations integrated with UI via fastapi
 - DAO to ingest, read data from Postgres Datasource
 
-The prototype is also dockerized and a simple docker-compose up . should start the app containers and publish the frontend on localhost:8501
+The prototype is also dockerized and a simple docker-compose up from main folder should start the app containers and publish the frontend on localhost:8501
